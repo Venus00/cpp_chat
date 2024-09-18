@@ -1,0 +1,10 @@
+^F:\PERSONNAL\C++\CHAT_APPLICATION\CLIENT\BUILD\CMAKEFILES\21BA42785F807BFF855A44F50283B464\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/personnal/c++/chat_application/client -BF:/personnal/c++/chat_application/client/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/personnal/c++/chat_application/client/build/Main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
